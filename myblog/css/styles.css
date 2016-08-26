@@ -7,23 +7,23 @@ body{
 
 /**HEADER**/
 #header-nav{
-	background-color: #7F077F;/*#d0f0c0;*/
+	background-color: #800080;/*#7F077F#d0f0c0*/
 	border-radius: 0;
 	border: 0;
 	clear:left;
-	background:url("../shout_bg.png") top center no-repeat 
+	/*background:url("../shout_bg.png") top center no-repeat */
 
 }
 
 #imgme{
-	background: url('../rsz_me.jpg') no-repeat;
+	background: url('../rsz_me.jpg') no-repeat 
 	height: 320px;
 	width: 320px;
 	/*margin: 10px 0px 0px 0;*/
 }
 
 #mobimgme{
-	background: url('../mob_rsz_me.jpg') no-repeat;
+	background: url('../mob_rsz_me.jpg') no-repeat
 	height: 160px;
 	width: 160px;
 	/*margin: 10px 0px 0px 0;*/
@@ -121,7 +121,7 @@ body{
 section{
 	/*margin-top: 20px;*/
   	/*border: 1px solid white;*/
-  	background-color: #9500d8;
+  	background-color: #800080;
   	color: white;
   	position:relative;
 }
@@ -143,7 +143,7 @@ a:link, a:visited {text-decoration: none;  color: black;}
 a:hover{background: gray; color: white; text-decoration: none;}
 
 p{
-	background-color: #c29bff; /**#d8bfd8**/
+	background-color: #96359c; /**#d8bfd8**/
 	/*font-family: 'Oxygen', sans-serif;*/
 	font-size: 140%;
   	color: black;
@@ -216,7 +216,7 @@ p{
 /** CALL BUTTON**/
 
 #call-btn > a{
-	background-color:  #9500d8;
+	background-color:  #800080;
 	color:  white;
 	/*font-family: 'Oxygen', sans-serif;*/
 	font-size: 1.5em;
