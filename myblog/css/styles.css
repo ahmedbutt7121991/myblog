@@ -1,7 +1,7 @@
 body{
 		font-size: 16px;
 		color:#fff;
-		background-color: #001010;
+		background-color: #fff68f;
 		font-family: 'Oxygen', sans-serif;
 }
 
@@ -111,7 +111,8 @@ body{
 /**HEADING OF THE PAGE**/
 .container-fluid{
 		/**background-color: #d0f0c0;**/
-		color:  white;
+		font-weight: bold;
+		color:  #800080;
 		display: block;
 		/*font-family: 'Oxygen', sans-serif;*/
 	}
