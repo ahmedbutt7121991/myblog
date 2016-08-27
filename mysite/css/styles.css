@@ -1,8 +1,8 @@
 /*--------------------------BODY STYLE-------------------------------*/
 body{
 	font-size: 16px;
-	color:#000f;
-	background-color: #fbdb65;
+	color:gold;
+	background-color: #000;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
@@ -10,7 +10,7 @@ body{
 /*--------------------------NAVBAR STYLE-------------------------------*/
 /*header>nav  id = header nav start*/
 #header-nav{
-	background-color: darkviolet;
+	background-color: #222;
 	border: 0;
 	border-radius: 0;
 }
@@ -32,7 +32,7 @@ body{
 	font-size: 40px;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 1px 1px 1px darkorange;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -45,7 +45,7 @@ body{
 }
 
 #navbar-list a{
-	color: white;
+	color: gold;
 	text-align: center;
 }
 
@@ -87,6 +87,7 @@ body{
 	font-size: 1em;
 	margin-right: 5px;
 }
+
 /*--------------------------FOOTER STYLE-------------------------------*/
 .panel-footer {
 	margin-top: 30px;
@@ -110,6 +111,20 @@ body{
 	font-size: .8em;
 	line-height: 1.8;
 }
+#copy-right{
+	color: gold;
+}
+/*--------------------------CONTAINER>BUTTON STYLE-------------------------------*/
+	/*jumbotron borders*/
+#call-btn > a{
+	font-size: 1.5em;
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 2px solid gold;
+	background-color: black;
+	color: gold;
+}
 /*--------------------------CONTAINER>JUMBOTRON STYLE-------------------------------*/
 	/*jumbotron borders*/
 	.container .jumbotron{
@@ -125,7 +140,7 @@ body{
 	width: 100%;
 	margin-bottom: 15px;
 	position: relative;
-	border: 2px solid darkviolet;
+	border: 2px solid gold;
 	overflow: hidden;
 }
 #intro-title:hover, #interest-title:hover, #act-title:hover {
