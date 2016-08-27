@@ -87,7 +87,14 @@ body{
 	font-size: 1em;
 	margin-right: 5px;
 }
-
+/*--------------------------CONTAINER JUMBOTRON STYLE-------------------------------*/
+	/*jumbotron borders*/
+	.container .jumbotron{
+		padding:0;
+		padding-right: 0;
+		padding-left: 0;
+		background-color: transparent;
+	}
 
 
 
