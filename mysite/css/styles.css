@@ -1,0 +1,135 @@
+/*--------------------------BODY STYLE-------------------------------*/
+body{
+	font-size: 16px;
+	color:#000f;
+	background-color: #fbdb65;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+
+/*--------------------------NAVBAR STYLE-------------------------------*/
+/*header>nav  id = header nav start*/
+#header-nav{
+	background-color: darkviolet;
+	border: 0;
+	border-radius: 0;
+}
+
+/*header>nav>div>div   id = my-pic*/
+#my-pic{
+	/*width: 150px;*/
+	height: 163px;
+}
+
+/*header>nav>div>div>div   class = navbar-brand*/
+.navbar-brand{
+	padding-top: 25px;
+}
+/*header>nav>div>div>div>a>h1       MY NAME*/
+.navbar-brand h1{
+	font-family:"Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	color: gold;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none; 
+}
+/*header>nav>div>div>div>button>div>ul     id=nav-list*/
+#navbar-list{
+	margin-top: 10px;
+}
+
+#navbar-list a{
+	color: white;
+	text-align: center;
+}
+
+#navbar-list a:hover{
+	background-color: black;
+}
+
+#navbar-list a span{
+	font-size: 1.8em;
+}
+/*header>nav>div>div>div>button>div>ul     id=phone*/
+
+#phone{
+	margin-top: 1.8px;
+}
+
+#phone a{
+	text-align: center;
+	padding-bottom: 0;
+}
+
+#phone span{
+	text-align: center;
+	padding-bottom: 0;
+}
+/*for changing color of the button for menu*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #ffd700;
+}
+/*positioning menu button at bottom of navbar*/
+.navbar-header button.navbar-toggle{
+	clear:none;
+	margin: 0px 20px -80px 0px; 
+}
+#collapsable-nav a{
+	font-size: 1.2em;
+}	
+#collapsable-nav a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
+
+
+
+
+
+/*--------------------------MEDIA COURIES-------------------------------*/
+/*--------------------------LARGE DEVICES-------------------------------*/
+@media (min-width: 1200px){
+
+}
+/*--------------------------MEDIUM DEVICES-------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+/*--------------------------SMALL DEVICES-------------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+	.navbar-brand h1{
+		font-size: 20px;
+	}
+		.navbar-brand{
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#my-pic{
+	/*width: 150px;*/
+	height: 150px;
+	}
+}
+/*--------------------------EXTRA SMALL DEVICES-------------------------------*/
+@media (max-width: 767px){
+	.navbar-brand h1{
+		font-size: 20px;
+	}
+	#my-pic{
+	height: 100px;
+	}
+	.navbar-brand{
+		padding: 0;
+	}
+	.navbar-header{
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-left: 10px;
+	}
+}
