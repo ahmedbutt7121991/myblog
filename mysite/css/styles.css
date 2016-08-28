@@ -114,8 +114,8 @@ body{
 #copy-right{
 	color: gold;
 }
+
 /*--------------------------CONTAINER>BUTTON STYLE-------------------------------*/
-	/*jumbotron borders*/
 #call-btn > a{
 	font-size: 1.5em;
 	display: block;
@@ -124,6 +124,42 @@ body{
 	border: 2px solid gold;
 	background-color: black;
 	color: gold;
+}
+/*--------------------------STAR CSS STYLING----------------------------------------*/
+/*STAR CSS*/
+#stars {
+	font-size: 1.5em;
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 2px solid gold;
+	background-color: black;
+	color: gold;
+	border-radius: 4px;
+}
+label {
+    color: gold;
+    text-indent: -2000em;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 1.2em;
+}
+label:before {
+    content: "★";
+    position: relative;
+    left: 2000em;
+}
+input:checked ~ label {
+    color: white;
+}
+input {
+    display: none;
+}
+div.rating:hover label {
+    color: gold;
+}
+div.rating label:hover ~ label {
+    color: white;
 }
 /*--------------------------CONTAINER>JUMBOTRON STYLE-------------------------------*/
 	/*jumbotron borders*/
