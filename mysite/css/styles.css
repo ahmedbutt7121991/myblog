@@ -15,7 +15,11 @@ body{
 	font-size: 40px;
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
-
+#author{
+	text-align: right;
+	color: white;
+	font-size: 20px;
+}
 /*--------------------------NAVBAR STYLE-------------------------------*/
 /*header>nav  id = header nav start*/
 #header-nav{
@@ -51,7 +55,7 @@ body{
 
 /*header>nav>div>div>div>button>div>ul     id=nav-list*/
 #navbar-list{
-	margin-top: 10px;
+	margin: 0px;
 }
 
 #navbar-list a{
@@ -59,7 +63,10 @@ body{
 	text-align: center;
 }
 
-#navbar-list a:hover,#navbar-list a:active{
+#navbar-list a:hover{
+	background-color: black;
+}
+#navbar-list > li.active > a{
 	background-color: black;
 }
 
@@ -97,7 +104,21 @@ body{
 	font-size: 1em;
 	margin-right: 5px;
 }
+/*tabs stylings*/
 
+#navbar-tabs > li > a:hover{
+	background-color: black;
+	color: gold;
+	border-bottom-color: transparent;
+}
+#navbar-tabs > li.active > a{
+	background-color: black;
+	color: gold;
+	border-bottom-color: transparent;
+}
+#navbar-tabs > li> a{
+	color: white;
+}
 /*--------------------------FOOTER STYLE-------------------------------*/
 .panel-footer {
 	margin-top: 30px;
@@ -132,7 +153,7 @@ body{
 	margin-bottom: 10px;
 	padding: 5px;
 	border: 2px solid gold;
-	background-color: black;
+	background-color: darkred;
 	color: gold;
 }
 /*--------------------------STAR CSS STYLING----------------------------------------*/
@@ -143,7 +164,7 @@ body{
 	margin-bottom: 10px;
 	padding: 5px;
 	border: 2px solid gold;
-	background-color: black;
+	background-color: darkred;
 	color: gold;
 	border-radius: 4px;
 }
@@ -231,7 +252,7 @@ div.rating label:hover ~ label {
 @media (min-width: 768px) and (max-width: 991px){
 	/*HEADER*/
 	.navbar-brand h1{
-		font-size: 20px;
+		font-size: 16px;
 	}
 		.navbar-brand{
 		padding-top: 10px;
