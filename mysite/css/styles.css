@@ -6,11 +6,20 @@ body{
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+#intro-heading{
+	font-size: 60px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+#intro-data{
+	font-size: 40px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
 
 /*--------------------------NAVBAR STYLE-------------------------------*/
 /*header>nav  id = header nav start*/
 #header-nav{
-	background-color: #222;
+	background-color: darkred;
 	border: 0;
 	border-radius: 0;
 }
@@ -39,6 +48,7 @@ body{
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none; 
 }
+
 /*header>nav>div>div>div>button>div>ul     id=nav-list*/
 #navbar-list{
 	margin-top: 10px;
@@ -49,7 +59,7 @@ body{
 	text-align: center;
 }
 
-#navbar-list a:hover{
+#navbar-list a:hover,#navbar-list a:active{
 	background-color: black;
 }
 
@@ -69,11 +79,11 @@ body{
 
 #phone span{
 	text-align: center;
-	padding-bottom: 0;
+	/*padding-bottom: 0;*/
 }
 /*for changing color of the button for menu*/
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-	border: 1px solid #ffd700;
+	border: 1px solid gold;
 }
 /*positioning menu button at bottom of navbar*/
 .navbar-header button.navbar-toggle{
@@ -171,30 +181,29 @@ div.rating label:hover ~ label {
 	}
 /*--------------------------CONTAINER>TITLES STYLE-------------------------------*/
 
-#intro-title, #interest-title, #act-title {
+#intro-title, #exp-title, #cert-title {
 	height: 250px;
 	width: 100%;
 	margin-bottom: 15px;
 	position: relative;
-	border: 2px solid gold;
 	overflow: hidden;
 }
-#intro-title:hover, #interest-title:hover, #act-title:hover {
+#intro-title:hover, #exp-title:hover, #cert-title:hover {
 	box-shadow: 0 1px 5px 1px darkorange;
 }
 #intro-title {
-	background: url('../intro-title.jpg') no-repeat;
+	background: url('../intro-icon.png') no-repeat;
 	background-position: center;
 }
-#interest-title {
-	background: url('../future-title.jpg') no-repeat;
+#exp-title {
+	background: url('../exp-icon.png') no-repeat;
 	background-position: center;
 }
-#act-title {
-	background: url('../act-title.jpg') no-repeat;
+#cert-title {
+	background: url('../cert-icon.png') no-repeat;
 	background-position: center;
 }
-#intro-title span, #interest-title span, #act-title span {
+#intro-title span, #exp-title span, #cert-title span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -234,7 +243,7 @@ div.rating label:hover ~ label {
 	height: 150px;
 	}
 	/*TITLE*/
-	#act-title {
+	#cert-title {
 		width: 360px;
 		margin: 0 auto 15px;
 	}
@@ -257,7 +266,7 @@ div.rating label:hover ~ label {
 		padding-left: 10px;
 	}
 	/*TITLES*/
-	#intro-title, #interest-title, #act-title {
+	#intro-title, #exp-title, #cert-title {
 		width: 360px;
 		margin: 0 auto 15px;
 	}
@@ -272,11 +281,21 @@ div.rating label:hover ~ label {
 	.panel-footer section hr {
 		width: 50%;
 	}
+		/*intro body stylings*/
+	#intro-heading{
+		font-size: 50px;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	}
+
+	#intro-data{
+		font-size: 35px;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	}
 }
 
 @media (max-width: 479px){
 	/*TITLES*/
-	#intro-title, #interest-title, #act-title {
+	#intro-title, #exp-title, #cert-title {
 		width: 280px;
 		margin: 0 auto 15px;
 	}
@@ -287,8 +306,18 @@ div.rating label:hover ~ label {
 		margin-bottom: 10px;
 		padding: 5px;
 		border: 2px solid gold;
-		background-color: black;
+		background-color: darkred;
 		color: gold;
 		border-radius: 4px;
+	}
+	/*intro body stylings*/
+	#intro-heading{
+		font-size: 40px;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	}
+
+	#intro-data{
+		font-size: 25px;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	}
 }
