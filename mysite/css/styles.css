@@ -225,15 +225,15 @@ div.rating label:hover ~ label {
 	box-shadow: 0 1px 5px 1px darkorange;
 }
 #intro-title {
-	background: url('../intro-icon.png') no-repeat;
+	background: url('../icons/intro-icon.png') no-repeat;
 	background-position: center;
 }
 #exp-title {
-	background: url('../exp-icon.png') no-repeat;
+	background: url('../icons/exp-icon.png') no-repeat;
 	background-position: center;
 }
 #cert-title {
-	background: url('../cert-icon.png') no-repeat;
+	background: url('../icons/cert-icon.png') no-repeat;
 	background-position: center;
 }
 #intro-title span, #exp-title span, #cert-title span {
