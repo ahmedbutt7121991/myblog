@@ -1,4 +1,4 @@
-/*--------------------------BODY STYLE-------------------------------*/
+/*--------------------------------------------------BODY STYLE--------------------------------------------------------*/
 body{
 	font-size: 16px;
 	color:gold;
@@ -20,7 +20,17 @@ body{
 	color: white;
 	font-size: 20px;
 }
-/*--------------------------NAVBAR STYLE-------------------------------*/
+#bach-data, #ssc-data, #hssc-data{
+	font-size: 20px;
+	font-family: fantasy;
+	text-align: center;
+}
+h3{
+	font-size: 30px;
+	text-align: left;
+	font-family: fantasy;
+}
+/*---------------------------------------------------NAVBAR STYLE-------------------------------------------------------*/
 /*header>nav  id = header nav start*/
 #header-nav{
 	background-color: darkred;
@@ -104,6 +114,8 @@ body{
 	font-size: 1em;
 	margin-right: 5px;
 }
+/*----------------------------------------------------------NAV STYLE--------------------------------------------------------*/
+
 /*tabs stylings*/
 
 #navbar-tabs > li > a:hover{
@@ -119,7 +131,7 @@ body{
 #navbar-tabs > li> a{
 	color: white;
 }
-/*--------------------------FOOTER STYLE-------------------------------*/
+/*------------------------------------------------------FOOTER STYLE------------------------------------------------------------*/
 .panel-footer {
 	margin-top: 30px;
 	padding-top: 35px;
@@ -146,7 +158,7 @@ body{
 	color: gold;
 }
 
-/*--------------------------CONTAINER>BUTTON STYLE-------------------------------*/
+/*--------------------------------------------------CONTAINER>BUTTON STYLE--------------------------------------------------*/
 #call-btn > a{
 	font-size: 1.5em;
 	display: block;
@@ -156,7 +168,7 @@ body{
 	background-color: darkred;
 	color: gold;
 }
-/*--------------------------STAR CSS STYLING----------------------------------------*/
+/*----------------------------------------------------STAR CSS STYLING------------------------------------------------------------*/
 /*STAR CSS*/
 #stars {
 	font-size: 1.5em;
@@ -192,7 +204,7 @@ div.rating:hover label {
 div.rating label:hover ~ label {
     color: white;
 }
-/*--------------------------CONTAINER>JUMBOTRON STYLE-------------------------------*/
+/*-------------------------------------------------------CONTAINER>JUMBOTRON STYLE--------------------------------------------------*/
 	/*jumbotron borders*/
 	.container .jumbotron{
 		padding:0;
@@ -200,7 +212,7 @@ div.rating label:hover ~ label {
 		padding-left: 0;
 		background-color: transparent;
 	}
-/*--------------------------CONTAINER>TITLES STYLE-------------------------------*/
+/*------------------------------------------------CONTAINER>TITLES STYLE-----------------------------------------------------------*/
 
 #intro-title, #exp-title, #cert-title {
 	height: 250px;
@@ -239,7 +251,7 @@ div.rating label:hover ~ label {
 #home-titles{
 	padding: 0px;
 }
-/*--------------------------MEDIA COURIES-------------------------------*/
+/*----------------------------------------------------------MEDIA COURIES-----------------------------------------------------*/
 /*--------------------------LARGE DEVICES-------------------------------*/
 @media (min-width: 1200px){
 
@@ -313,7 +325,7 @@ div.rating label:hover ~ label {
 		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	}
 }
-
+/*-----------------------------EXTRA EXTRA SMALL------------------------------------*/
 @media (max-width: 479px){
 	/*TITLES*/
 	#intro-title, #exp-title, #cert-title {
