@@ -102,6 +102,9 @@ h3{
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid gold;
 }
+.navbar-header button.navbar-toggle:hover {
+	background-color: black;
+}
 /*positioning menu button at bottom of navbar*/
 .navbar-header button.navbar-toggle{
 	clear:none;
