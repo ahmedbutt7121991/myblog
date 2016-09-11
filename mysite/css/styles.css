@@ -257,6 +257,102 @@ div.rating label:hover ~ label {
 #home-titles{
 	padding: 0px;
 }
+#mov1, #mov2,#mov3, #mov4, #mov5, #mov6, #bmov1, #bmov2, #bmov3, #bmov4, #bmov5, #bmov6
+, #amov1, #amov2, #amov3, #amov4, #amov5, #amov6 {
+	height: 256px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#mov1 {
+	background: url('../icons/Harry-Potter256.png') no-repeat;
+	background-position: center;
+}
+#mov2 {
+	background: url('../icons/Terminator-256.png') no-repeat;
+	background-position: center;
+}
+#mov3 {
+	background: url('../icons/Transformers-256.png') no-repeat;
+	background-position: center;
+}
+#mov4 {
+	background: url('../icons/fast-256.png') no-repeat;
+	background-position: center;
+}
+#mov5 {
+	background: url('../icons/the_pursuit-256.png') no-repeat;
+	background-position: center;
+}
+#mov6 {
+	background: url('../icons/hitman-256.png') no-repeat;
+	background-position: center;
+}
+/*bollywood*/
+#bmov1 {
+	background: url('../icons/rsz_pk-512.png') no-repeat;
+	background-position: center;
+}
+#bmov2 {
+	background: url('../icons/rsz_jan-512.png') no-repeat;
+	background-position: center;
+}
+#bmov3 {
+	background: url('../icons/rsz_zindgi-512.png') no-repeat;
+	background-position: center;
+}
+#bmov4 {
+	background: url('../icons/rsz_agnee-512.png') no-repeat;
+	background-position: center;
+}
+#bmov5 {
+	background: url('../icons/rsz_bajirao-512.png') no-repeat;
+	background-position: center;
+}
+#bmov6 {
+	background: url('../icons/rsz_barfi-512.png') no-repeat;
+	background-position: center;
+}
+/*animated*/
+#amov1 {
+	background: url('../icons/up-256.png') no-repeat;
+	background-position: center;
+}
+#amov2 {
+	background: url('../icons/rsz_wall-512.png') no-repeat;
+	background-position: center;
+}
+#amov3 {
+	background: url('../icons/rsz_war-512.png') no-repeat;
+	background-position: center;
+}
+#amov4 {
+	background: url('../icons/tmnt-256.png') no-repeat;
+	background-position: center;
+}
+#amov5 {
+	background: url('../icons/angry-256.png') no-repeat;
+	background-position: center;
+}
+#amov6 {
+	background: url('../icons/loin-256.png') no-repeat;
+	background-position: center;
+}
+#mov1 span, #mov2 span,#mov3 span, #mov4 span, #mov5 span, #mov6 span, #bmov1 span, #bmov2 span,#bmov3 span,
+ #bmov4 span, #bmov5 span, #bmov6 span, #amov1 span, #amov2 span, #amov3 span, #amov4 span, #amov5 span,
+  #amov6 span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .5;
+}
 /*----------------------------------------------------------MEDIA COURIES-----------------------------------------------------*/
 /*--------------------------LARGE DEVICES-------------------------------*/
 @media (min-width: 1200px){
