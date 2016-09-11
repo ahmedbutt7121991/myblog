@@ -406,6 +406,13 @@ div.rating label:hover ~ label {
 	color: #fff;
 	opacity: .5;
 }
+/*back to top*/
+#back-to-top{
+background-color: #ff8c00ff;
+color: white;
+opacity: .8;
+text-transform: uppercase;
+}
 /*----------------------------------------------------------MEDIA COURIES-----------------------------------------------------*/
 /*--------------------------LARGE DEVICES-------------------------------*/
 @media (min-width: 1200px){
