@@ -258,13 +258,15 @@ div.rating label:hover ~ label {
 	padding: 0px;
 }
 #mov1, #mov2,#mov3, #mov4, #mov5, #mov6, #bmov1, #bmov2, #bmov3, #bmov4, #bmov5, #bmov6
-, #amov1, #amov2, #amov3, #amov4, #amov5, #amov6 {
+, #amov1, #amov2, #amov3, #amov4, #amov5, #amov6, #anmov1, #anmov2, #anmov3, #anmov4, #anmov5, #anmov6
+ ,#gmov1, #gmov2,#gmov3, #gmov4, #gmov5, #gmov6{
 	height: 256px;
 	width: 100%;
 	margin-bottom: 15px;
 	position: relative;
 	overflow: hidden;
 }
+/*hollywood*/
 #mov1 {
 	background: url('../icons/Harry-Potter256.png') no-repeat;
 	background-position: center;
@@ -339,9 +341,60 @@ div.rating label:hover ~ label {
 	background: url('../icons/loin-256.png') no-repeat;
 	background-position: center;
 }
+/*games*/
+#gmov1 {
+	background: url('../icons/rise-256.png') no-repeat;
+	background-position: center;
+}
+#gmov2 {
+	background: url('../icons/hitmang-256.png') no-repeat;
+	background-position: center;
+}
+#gmov3 {
+	background: url('../icons/medal.png') no-repeat;
+	background-position: center;
+}
+#gmov4 {
+	background: url('../icons/wanted-256.png') no-repeat;
+	background-position: center;
+}
+#gmov5 {
+	background: url('../icons/csgo-256.png') no-repeat;
+	background-position: center;
+}
+#gmov6 {
+	background: url('../icons/igi-256.png') no-repeat;
+	background-position: center;
+}
+/*animaes*/
+#anmov1 {
+	background: url('../icons/naruto-256.png') no-repeat;
+	background-position: center;
+}
+#anmov2 {
+	background: url('../icons/bleach-256.png') no-repeat;
+	background-position: center;
+}
+#anmov3 {
+	background: url('../icons/death-256.png') no-repeat;
+	background-position: center;
+}
+#anmov4 {
+	background: url('../icons/steins-256.png') no-repeat;
+	background-position: center;
+}
+#anmov5 {
+	background: url('../icons/god-256.png') no-repeat;
+	background-position: center;
+}
+#anmov6 {
+	background: url('../icons/clay-256.png') no-repeat;
+	background-position: center;
+}
 #mov1 span, #mov2 span,#mov3 span, #mov4 span, #mov5 span, #mov6 span, #bmov1 span, #bmov2 span,#bmov3 span,
  #bmov4 span, #bmov5 span, #bmov6 span, #amov1 span, #amov2 span, #amov3 span, #amov4 span, #amov5 span,
-  #amov6 span {
+  #amov6 span, #anmov1 span, #anmov2 span, #anmov3 span, #anmov4 span, #anmov5 span, #anmov6 span
+ ,#gmov1 span, #gmov2 span,#gmov3 span, #gmov4 span, #gmov5 span, #gmov6 span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
